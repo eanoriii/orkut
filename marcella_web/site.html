@@ -4,43 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME-Marcella</title>
-    <link rel="stylesheet" href="/assents/css/style.css">
-    <link rel="shortcut icon" href="/assents/o_de_orkut.png" type="image/x-icon">
+    <link rel="stylesheet" href="/marcella_web/assents/css/style.css">
+    <link rel="shortcut icon" href="/marcella_web/assents/o_de_orkut.png" type="image/x-icon">
     <!--vou tentar recriar o layout do orkut
     com favicon do orkut 
     -->
 </head>
+
 <body>
-    <header>
-        <img src="assents/logo_orkut.png" alt="logo da twich" width="90px" height="25px">
-        <button>Inicio</button>
-        <button>Perfil</button>
-        <button>Pagina de recados</button>
-        <button>Amigos</button>
-        <button>Comunidades</button>
-        fanclube_de_tudo@hotmail.com
-        <button>Sair</button></header>
-        <form class="barra-pesquisa">
+    <header> 
+        
+        
+        <div class="inicial">
+            <img id="logo" src="/marcella_web/assents/logo_orkut.png" alt="logo do orkut" width="90px" height="25px">
+            <button><a href="/marcella_web/inicio.html">inicio</a></button>
+            <button>Perfil</button>
+            <button>Pagina de recados</button>
+            <button>Amigos</button>
+            <button>Comunidades</button>
+        </div>
+        <div class="busca">
+            vocaloid_fanclub@hotmail.com
+            <button>Sair</button>
             <input type="text">
-            <a href="#"><img class="busca" src="/assents/favicon.png" width="20px" height="20px"></a>
-        </form>
+            <a href="#"><img src="/marcella_web/assents/favicon.png" width="20px" height="20px"></a>
+        </div>
         
     </header>
     
-    <nav>
-        <img src="assents/Miku_Hatsune.png" alt="cantora virtual hatsune miku" width="150px" height="150px">
-    <h3>Hatsune Miku</h3>
-    <button class="buttonlateral">perfil</button>
-    <button class="buttonlateral">recados</button>
-    <button class="buttonlateral">album</button>
-    <button class="buttonlateral">videos</button>
 
-    </nav>
+    <div class="principal">
+        <nav>
+            <img src="assents/Miku_Hatsune.png" alt="cantora virtual hatsune miku" width="150px" height="150px">
+            <h3>Hatsune Miku</h3>
 
-    <main>
-        <h1>Bem vinda, Hatsune!</h1>
-        <a href="https://www.youtube.com">video</a>
-    </main>
-    
+            <button class="buttonlateral">perfil</button>
+            <button class="buttonlateral">recados</button>
+            <button class="buttonlateral">album</button>
+            <button class="buttonlateral">videos</button>
+
+        </nav>
+ 
+        <main>
+            <h1>Bem vinda, Miku!</h1>
+        </main>
+
+        <div class="barramigos"></div>
+    </div>
+
+    <footer>
+        @2024 | Marcella Harumy :D
+    </footer>
 </body>
 </html>
