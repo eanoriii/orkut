@@ -9,7 +9,6 @@
 
 body {
     /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
-    background-color: rgba(0, 0, 0, 0);
     font-family: Arial;
 }
 
@@ -17,7 +16,7 @@ header {
     padding: auto;
     width: auto;
     height: 30px;
-    background-image: linear-gradient(rgb(105, 105, 233),rgb(43, 58, 155));
+    background: linear-gradient(rgb(105, 105, 233),rgb(43, 58, 155));
     margin-bottom: 5px;
     display: flex;
     flex-direction: row;
@@ -33,6 +32,7 @@ img {
     width: 100px;
     height: 30px;
     margin-right: 2px;
+    border: #ffffff;
     background-image: linear-gradient(white,rgb(182, 182, 182));
 }
 
@@ -63,7 +63,7 @@ input{
 #pesquisa{
     background-color: #191791;
     border-radius: 5px;
-    
+    align-items: center;
 }
 
 button {
@@ -81,7 +81,6 @@ button:hover {
     text-decoration: underline;
 }
 
-
 .buttonlateral {
     border-top: #888888;
     margin: 1px;
@@ -89,6 +88,11 @@ button:hover {
     color: black;
     display: flex;
     flex-direction: column;
+}
+
+.buttonlateral{
+    display: flex;
+    justify-content: flex-start;
 }
 
 .sobreOperfil{
@@ -121,11 +125,16 @@ main {
     border-top-right-radius: 60px;
 }
 
+#barradireita{
+    display: flex;
+    flex-direction: column;
+}
+
 .barramigos {
     background-color: #ffffff;
     padding: 1px;
     width: 300px;
-    height: 500px;
+    height: auto;
     margin: 5px;
     border-radius: 10px;
 }
@@ -145,14 +154,25 @@ main {
     margin: 5px;
     background-color: #dadada;
     border-radius: 5px;
+    width: 85px;
+    height: auto;
     
 }
+
 .Amigos {
     width: 80px;
     height: 80px;
 
 }
 
+.comunidades{
+    background-color: #ffffff;
+    padding: 1px;
+    width: 300px;
+    height: auto;
+    margin: 5px;
+    border-radius: 10px;
+}
 
 h1{
     background: none;
@@ -169,10 +189,10 @@ h3 {
 }
 
 
-
 footer {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: baseline;
+    
 }
 
