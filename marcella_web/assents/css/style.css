@@ -125,10 +125,23 @@ main {
     border-top-right-radius: 60px;
 }
 
-#barradireita{
+#niver{
+    background-color: #ffffff;
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+    margin: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+
+
+#column{
     display: flex;
     flex-direction: column;
 }
+
 
 .barramigos {
     background-color: #ffffff;
