@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cominidades</title>
+    <title>HOME-Marcella</title>
     <link rel="stylesheet" href="./assents/css/style.css">
     <link rel="shortcut icon" href="./assents/o_de_orkut.png" type="image/x-icon">
     <!--vou tentar recriar o layout do orkut
@@ -13,7 +14,7 @@
 
 <body>
 
-    <header>   
+    <header>
         <div class="inicial">
             <img id="logo" src="./assents/logo_orkut.png" alt="logo do orkut" width="90px" height="25px">
             <button>Inicio</button>
@@ -26,12 +27,12 @@
             vocaloid_fanclub@hotmail.com
             <button>Sair</button>
             <div id="pesquisa">
-            <input type="search">
-            <a href="#"><img src="./assents/favicon.png" width="20px" height="20px"></a>
+                <input type="text">
+                <a href="#"><img src="./assents/favicon.png" width="20px" height="20px"></a>
             </div>
-        </div>  
+        </div>
     </header>
-    
+
 
     <div class="principal">
         <nav>
@@ -61,62 +62,64 @@
             <button class="buttonlateral"><img src="./assents/spam.png" width="16px" height="16px">spam</button>
         </div>
         </nav>
- 
+
+    <div class="column">
         <main>
-            <h1>Comunidades</h1>
-            <h4>inicio > comunidades</h4>
-            <p id="textoPrincipal">Compartilhe suas paixões. Conheça pessoas com tem interesses em comum. Troque ideias. Planeje eventos...</p>
-            <p>Você pode pesquisar comunidades ou cria sua propria comunidade.</p>
+            <h1>Bem vindo(a), Miku!</h1>
+
+        <div id="publicar">
+            <input id="post" type="text">
+            <button class="gerente">editor</button>
+        </div>
+
+        <div id="fans">
+            <button class="sobreOperfil">recados<img src="./assents/recados.png" width="16px" height="16px">(0)</button>
+            <button class="sobreOperfil">fotos<img src="./assents/camera.png" width="16px" height="16px">(0)</button>
+            <button class="sobreOperfil">fãs<img src="./assents/star.png" width="16px" height="16px">(0)</button>
+            <button class="sobreOperfil">mensagens<img src="./assents/mail.png" width="16px" height="16px">(0)</button>
+        </div>
+
         </main>
 
-        <div id="barradireita">
-        <div class="comunidades">
-            <h3>Todas as Comunidades</h3>
-            <section>
-            pesquisar por nome:
-            <input id="pesquisarComunidades" type="search">
-            <button class="gerente">pesquisar</button> 
-            
-            procurar categorias:
-            <div class="categorias">
-            <a>alunos e escolas</a>
-            <a>animais: estimacao ou nao</a>
-            <a>artes e entreterimento</a>
-            <a>atividades</a>
-            <a>automotivos</a>
-            <a>cidades e bairos</a>
-            <a>computadores e internet</a>
-            <a>culinaria, bebidas e vinhos</a>
-            <a>culturas e comunidade</a>
-            <a>empresa</a>
-            <a>escolas e cursos</a>
-            <a>esportes e lazer</a>
-            <a>familia e lar</a>
-            <a>gays lesbicas e bi</a>
-            <a>governo e politica</a>
-            <a>historias e ciencias</a>
-            <a>hobbies e trabalhos manuais</a>
-            <a>jogos</a>
-            <a>moda e beleza</a>
-            <a>musica</a>
-            <a>negocios</a>
-            <a>paise e regioes</a>
-            <a>pessoas</a>
-            <a>religioes e crenças</a>
-            <a>romances e relacionamentos</a>
-            <a>saude,bem-estar e fitness</a>
-            <a>viajens</a>
-            <a>outros</a>            
-            </div>
-            <button class="gerente">criar</button>
-        </section>
+        <div id="niver">
+        <div id="abas">
+            <button onclick="atualiacao()">atualizações dos meus Amigos</button> 
+            <button onclick="atualiacao()">minhas atualizações</button>
         </div>
-       
+        <div>
+            <a id="referencia" href="https://www.youtube.com/watch?v=RWAcbNI14Hc">👉referencia que usei para o fazer o site👈</a>
+        </div>
+        </div>
+    </div>
+
+
+        <div class="column">
+            <div class="barramigos">
+                <h3>Meus Amigos</h3>
+                <div>
+                    <button class="perfils"><img class="Amigos" src="./assents/Kasane_Teto.png">Kasane Teto </button>
+                    <button class="perfils"><img class="Amigos" src="./assents/Neru_Akita.png">Akita Neru </button>
+                    <button class="perfils"></button>
+                    <button class="buttonlateral">ver todos</button>
+                    <button class="gerente">gerenciar</button>
+                </div>
+            </div>
+            <div class="comunidades">
+                <h3>Minhas Comunidades</h3>
+                <div class="divisao">
+                <button class="buttonlateral">ver todos</button>
+                <button class="gerente">gerenciar</button>
+            
+                </div>
+            </div>
         </div>
     </div>
 
     <footer>
         @2024 | Marcella Harumy :D
     </footer>
+
+    <script src="./assents/js/script.js"></script>
 </body>
+
 </html>
