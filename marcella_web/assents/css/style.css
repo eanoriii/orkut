@@ -195,10 +195,22 @@ main {
     border-top-right-radius: 60px;
 }
 
+.publicaçao{
+    background-color: #dadada;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2px;
+}
+
+article{
+    margin-left: 10px;
+}
+
 #fans{ 
     display: flex;
-    align-items: center;
-     
+    align-items: center;   
 }
 
 #niver{
