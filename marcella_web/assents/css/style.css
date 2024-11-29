@@ -221,10 +221,6 @@ main {
     margin: 2px;
 }
 
-article{
-    margin-left: 10px;
-}
-
 #fans{ 
     display: flex;
     align-items: center;   

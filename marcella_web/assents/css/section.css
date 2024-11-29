@@ -1,0 +1,23 @@
+@charset "utf8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color:  rgb(205, 225, 231);
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    margin: 0.5em;
+}
+
+.imagem{
+    margin: 0.5em;
+}
+
+article{
+    margin-left: 10px;
+}
